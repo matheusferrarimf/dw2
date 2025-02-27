@@ -22,13 +22,13 @@ $headers = apache_request_headers();
     <h2>Informações do Formulário</h2>
     <ul>
         <?php foreach ($dados as $chave => $valor): ?>
-            <li><strong><?php echo htmlspecialchars($chave); ?>:</strong> <?php echo htmlspecialchars($valor); ?></li>
+            <li><strong><?php echo ($chave); ?>:</strong> <?php echo ($valor); ?></li>
         <?php endforeach; ?>
     </ul>
     <h2>Cabeçalhos da Requisição</h2>
     <ul>
         <?php foreach ($headers as $chave => $valor): ?>
-            <li><strong><?php echo htmlspecialchars($chave); ?>:</strong> <?php echo htmlspecialchars($valor); ?></li>
+            <li><strong><?php echo ($chave); ?>:</strong> <?php echo ($valor); ?></li>
         <?php endforeach; ?>
     </ul>
     <p><strong>Método utilizado:</strong> <?php echo $_SERVER['REQUEST_METHOD']; ?></p>
