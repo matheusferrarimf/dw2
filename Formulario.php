@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && !empty($_GET)) {
-    header('Location: destino.php?' . http_build_query($_GET));
+    header('Location: Destino.php?' . http_build_query($_GET));
     exit;
 }
 ?>
@@ -25,6 +25,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && !empty($_GET)) {
         <button type="submit">Enviar</button>
     </form>
     <p>Você também pode fazer REQUEST na URL:</p>
-    <a href="destino.php?nome=Joao&fone=123456789&email=joao@email.com">Clique aqui para enviar por GET</a>
+    <a href="destino.php?nome=Matheus&fone=123456789&email=matheus@email.com">Clique aqui para enviar por GET</a>
 </body>
 </html>
