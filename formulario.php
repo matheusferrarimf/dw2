@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && !empty($_GET)) {
-    header('Location: Destino.php?' . http_build_query($_GET));
+    header('Location: destino.php?' . http_build_query($_GET));
     exit;
 }
 ?>
