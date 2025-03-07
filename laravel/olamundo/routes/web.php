@@ -1,11 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContatoController;
 
 Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contato', function(){
-    return view('contato');
-});
+Route::resource('/contato', ContatoController::class);

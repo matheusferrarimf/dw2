@@ -18,7 +18,7 @@
     <h1>olá mundo</h1>
     <br>
     <p>para entrar em contato com o desenvolvedor dessa aplicação favor utilize esse email</p>
-    <a href="mailto:matheusferrarimf@unidavi.edu.br">matheusferrarimf@unidavi.edu.br</a>
+    <a href="mailto:{{$email}}">matheusferrarimf@unidavi.edu.br</a>
     </div> 
 </body>
 </html>
